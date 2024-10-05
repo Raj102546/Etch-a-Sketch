@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(179, 206, 246);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color:rgb(112, 145, 238) ;
+    width: 675px;
+    aspect-ratio: 1;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.divs {
+    background-color: rgb(112, 145, 238);
+    border: 1px solid black;
+    min-height: 1px;
+    cursor: pointer;
+}
+
+.start {
+    background-color: rgb(112, 145, 238);
+    margin: 5px;
+    font-size: 20px;
+    padding: 5px;
+    cursor: pointer;
+}
